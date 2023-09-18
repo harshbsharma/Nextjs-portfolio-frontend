@@ -17,7 +17,7 @@ const Tag = React.forwardRef<HTMLDivElement, TagProps>(
         )}
         {...props}
       >
-        <Typography variant="body3" className="font-medium">
+        <Typography variant="body3" className="font-bold text-xl">
           {label}
         </Typography>
       </div>

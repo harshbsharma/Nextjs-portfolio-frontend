@@ -20,9 +20,13 @@ import DownloadCV from '@/components/general/download-cv';
 import Typography from '@/components/general/typography';
 
 const Logo = () => (
-  <Typography variant="h3" className="font-bold">
-    {'<SS />'}
-  </Typography>
+  // <Typography variant="h3" className="font-bold">
+  //   {'<HS />'}
+  // </Typography>
+  <img
+  src='/images/harshlogo.png'
+  className='w-[50px] h-[50px]'
+  />
 );
 
 const Header = () => {

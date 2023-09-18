@@ -31,14 +31,15 @@ const ProjectDetails = ({
             : 'md:order-last md:rounded-r-xl md:border-l'
         )}
       >
-        <Link noCustomization href={url} externalLink>
-          <Image
+        {/* <Link noCustomization href={url} externalLink>
+        keep the image between these to redirect them to project URL
+        </Link> */}
+        <Image
             src={previewImage}
             alt={`${name} preview`}
             className="rounded-xl shadow-lg transition-transform duration-500 md:hover:scale-105"
             style={{ objectFit: 'cover' }}
           />
-        </Link>
       </div>
 
       {/* Content */}
@@ -57,14 +58,14 @@ const ProjectDetails = ({
             <Tag key={index} label={technology} />
           ))}
         </div>
-        <Link
+        {/* <Link
           href={url}
           noCustomization
           className="self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500"
           externalLink
         >
           <ExternalLink />
-        </Link>
+        </Link> */}
       </div>
     </Card>
   );

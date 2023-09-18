@@ -1,5 +1,10 @@
-import { Github, Twitter, Figma } from 'lucide-react';
+import { Github, Twitter, Figma, Linkedin, Instagram } from 'lucide-react';
 
+import LogoAWS from '/public/images/logos/icon-aws.svg';
+import LogoPostman from '/public/images/logos/icon-postman.svg';
+import LogoFirebase from '/public/images/logos/icon-firebase.svg';
+import LogoRedux from '/public/images/logos/icon-redux.svg';
+import LogoGCP from '/public/images/logos/icon-gcp.svg';
 import LogoJavascript from '/public/images/logos/icon-javascript.svg';
 import LogoTypescript from '/public/images/logos/icon-typescript.svg';
 import LogoReact from '/public/images/logos/icon-react.svg';
@@ -28,6 +33,9 @@ import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel-light.svg';
 
 import ProjectFiskil from '/public/images/project-fiskil.png';
 import ProjectWingie from '/public/images/project-wingie.png';
+import ProjectEcommerce from '/public/images/e-commerce.png';
+import ProjectSaas from '/public/images/saas.png';
+import ProjectCollabhub from '/public/images/homepage.png';
 import ProjectPepehousing from '/public/images/project-pepehousing.png';
 
 import AvatarKrisztian from '/public/images/avatar-krisztian.png';
@@ -42,12 +50,11 @@ import {
 } from '@/lib/types';
 
 export const EXTERNAL_LINKS = {
-  GITHUB: 'https://github.com/shahsagarm',
+  GITHUB: 'https://github.com/harshbsharma',
   GITHUB_REPO: 'https://github.com/shahsagarm/sagarshah.dev',
-  TWITTER: 'https://twitter.com/shahsagarm',
-  FIGMA: 'https://www.figma.com/@shahsagarm',
-  FIGMA_FILE:
-    'https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop',
+  TWITTER: 'https://twitter.com/0xharsh_sharma',
+  INSTAGRAM:"https://instagram.com/sharma.harsh2612"
+  
 };
 
 export const NAV_LINKS = [
@@ -72,16 +79,20 @@ export const NAV_LINKS = [
 export const SOCIAL_LINKS = [
   {
     icon: Github,
-    url: 'https://github.com/shahsagarm',
+    url: 'https://github.com/harshbsharma',
   },
   {
     icon: Twitter,
-    url: 'https://twitter.com/shahsagarm',
+    url: 'https://twitter.com/0xharsh_sharma',
   },
   {
-    icon: Figma,
-    url: 'https://www.figma.com/@shahsagarm',
+    icon: Linkedin,
+    url: 'https://www.linkedin.com/in/harshbsharma',
   },
+  {
+    icon:Instagram,
+    url:"https://instagram.com/sharma.harsh2612"
+  }
 ];
 
 export const TECHNOLOGIES: TechDetails[] = [
@@ -116,22 +127,22 @@ export const TECHNOLOGIES: TechDetails[] = [
     darkModeLogo: LogoExpressLight,
     url: 'https://expressjs.com/',
   },
-  {
-    label: 'Nest.js',
-    logo: LogoNest,
-    url: 'https://nestjs.com/',
-  },
-  {
-    label: 'Socket.io',
-    logo: LogoSocket,
-    darkModeLogo: LogoSocketLight,
-    url: 'https://socket.io/',
-  },
-  {
-    label: 'PostgreSQL',
-    logo: LogoPostgreSQL,
-    url: 'https://www.postgresql.org/',
-  },
+  // {
+  //   label: 'Nest.js',
+  //   logo: LogoNest,
+  //   url: 'https://nestjs.com/',
+  // },
+  // {
+  //   label: 'Socket.io',
+  //   logo: LogoSocket,
+  //   darkModeLogo: LogoSocketLight,
+  //   url: 'https://socket.io/',
+  // },
+  // {
+  //   label: 'PostgreSQL',
+  //   logo: LogoPostgreSQL,
+  //   url: 'https://www.postgresql.org/',
+  // },
   {
     label: 'MongoDB',
     logo: LogoMongoDB,
@@ -152,21 +163,46 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoFigma,
     url: 'https://www.figma.com/',
   },
-  {
-    label: 'Cypress',
-    logo: LogoCypress,
-    darkModeLogo: LogoCypressLight,
-    url: 'https://www.cypress.io/',
-  },
-  {
-    label: 'Storybook',
-    logo: LogoStorybook,
-    url: 'https://storybook.js.org/',
-  },
+  // {
+  //   label: 'Cypress',
+  //   logo: LogoCypress,
+  //   darkModeLogo: LogoCypressLight,
+  //   url: 'https://www.cypress.io/',
+  // },
+  // {
+  //   label: 'Storybook',
+  //   logo: LogoStorybook,
+  //   url: 'https://storybook.js.org/',
+  // },
   {
     label: 'Git',
     logo: LogoGit,
     url: 'https://git-scm.com/',
+  },
+  {
+    label: 'AWS',
+    logo: LogoAWS,
+    url: 'https://aws.amazon.com/',
+  },
+  {
+    label: 'GCP',
+    logo: LogoGCP,
+    url: 'https://cloud.google.com/',
+  },
+  {
+    label: 'Redux',
+    logo: LogoRedux,
+    url: 'https://redux.js.org/',
+  },
+  {
+    label: 'Firebase',
+    logo: LogoFirebase,
+    url: 'https://firebase.google.com/',
+  },
+  {
+    label: 'Postman',
+    logo: LogoPostman,
+    url: 'https://postman.com/',
   },
 ];
 
@@ -210,57 +246,53 @@ export const EXPERIENCES: ExperienceDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
-    name: 'Wingie',
+    name: 'MegaMart',
     description:
-      'A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.',
+      'MegaMart is a student-centric online marketplace where students can easily buy and sell second-hand products within their academic community. Our platform is designed to provide affordable solutions for students needs, promote sustainability by reducing waste, and foster a sense of community among students.',
     url: 'https://www.wingie.com',
-    previewImage: ProjectWingie,
+    previewImage: ProjectEcommerce,
     technologies: [
       'React',
-      'Typescript',
+      'Javascript',
       'React Bootstrap',
       'Firebase',
       'Express.js',
-      'PostgreSQL',
+      'Passport.js',
       'Styled Components',
       'Redux',
     ],
   },
   {
-    name: 'Fiskil',
+    name: 'CollabHub',
     description:
-      'A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.',
+      'CollabHub enables YouTube creators to seamlessly manage their channels by granting access to a team of editors. Creators can authorize their YouTube channels via OAuth 2.0, allowing editors to upload videos on their behalf.',
     url: 'https://fiskil.com.au',
-    previewImage: ProjectFiskil,
+    previewImage: ProjectCollabhub,
     technologies: [
       'React',
-      'Next.js',
-      'Typescript',
+      'Javascript',
       'Tailwindcss',
-      'Material UI',
       'Redux Toolkit',
-      'React Query',
       'Express.js',
-      'PostgreSQL',
-      'Firebase',
-      'AWS Amplify',
-      'Cypress',
-      'Storybook',
+      'MongoDB',
+      'Passport.js',
+      'Youtube Data API',
+      'Bcrypt'
     ],
   },
   {
-    name: 'Pepehousing',
+    name: 'FinHouse',
     description:
-      'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
+      'A Saas Website to manage all the user finance , from monthly budgets to special events Finhouse got it all covered. Give you smooth and efficient spend tracking to improve savings.',
     url: 'https://pepehousing.com',
-    previewImage: ProjectPepehousing,
+    previewImage: ProjectSaas,
     technologies: [
       'React',
       'Next.js',
       'Typescript',
       'Tailwindcss',
       'Redux Toolkit',
-      'React Query',
+      'Oauth',
       'Storybook',
     ],
   },
@@ -268,24 +300,24 @@ export const PROJECTS: ProjectDetails[] = [
 
 export const TESTIMONIALS: TestimonialDetails[] = [
   {
-    personName: 'Krisztian Gyuris',
+    personName: 'Avinash Singh',
     personAvatar: AvatarKrisztian,
-    title: 'Founder - inboxgenie.io',
+    title: 'Project Mentor - Collabhub',
     testimonial:
-      'Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.',
+      'Harsh is a standout student in our program. . His enthusiasm for web development and problem-solving is evident in the quality of work he produces. What sets him apart is his commitment to continuous learning. He is a quick learner, and his commitment to excellence is commendable.',
   },
   {
-    personName: 'Eugen Esanu',
+    personName: 'Sumit Agarwal',
     personAvatar: AvatarEugen,
-    title: 'Founder - shosho.design',
+    title: 'Founder - Talkabit',
     testimonial:
-      'Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.',
+      'Great guy, highly recommended for any COMPLEX front-end development projects! His skills are top-notch and he will be an amazing addition to any team.',
   },
   {
-    personName: 'Joe Matkin',
+    personName: 'Frank Drumsfield',
     personAvatar: AvatarDummy,
     title: 'Freelancer',
     testimonial:
-      'Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.',
+      'Harsh person you want on your team in any competitive scenario or hackathon. I have had worked alongside him on numerous projects, and his technical prowess is nothing short of remarkable. ',
   },
 ];
