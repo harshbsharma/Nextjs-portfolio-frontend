@@ -56,11 +56,11 @@ const AboutMeSection = () => {
             enthusiastic about bringing the technical and visual aspects of
             digital products to life. User experience, pixel perfect design, and
             writing clear, readable, highly performant code matters to me. */}
-            Greetings! I'm Harsh Sharma, a dynamic Full Stack Web Developer 🧑‍💻, specializing 
+            Greetings! I&apos;m Harsh Sharma, a dynamic Full Stack Web Developer 🧑‍💻, specializing 
             in the <a className='font-semibold text-base'>MERN</a> (MongoDB, Express.js, React, Node.js) stack.
-            I'm currently in my junior year of pursuing&nbsp; 
+            I&apos;m currently in my junior year of pursuing&nbsp; 
             <a className='font-semibold text-base'>B.Tech in Computer Science</a>, 
-            I've spent a solid two years delving deep into the world of MERN. 
+            I&apos;ve spent a solid two years delving deep into the world of MERN. 
             My passion for learning and hands-on experience in hackathons and competitions 
             have helped me to sharp my skills.
           </Typography>
@@ -77,8 +77,8 @@ const AboutMeSection = () => {
             I have a keen appreciation for movies that are crafted with care, capturing 
             human emotions and experiences through the lens 🎥.
             <br/>
-            You'll often find me immersed in finance and economics literature. It's not 
-            just an interest; it's a valuable lens through which I understand the broader 
+            You&apos;ll often find me immersed in finance and economics literature. It&apos;s not 
+            just an interest; it&apos;s a valuable lens through which I understand the broader 
             impact of technology on our society and economy.
           </Typography> 
           {/* <Typography>
@@ -111,10 +111,10 @@ const AboutMeSection = () => {
             </Link>
             . */}
 
-            I'm eager to connect with like-minded individuals who share a passion for 
-            technology and its real-world applications. If you're looking for a driven 
-            Full Stack Developer who's genuinely enthusiastic about contributing to 
-            meaningful projects, I'd love to chat. Ping me on{' '}  
+            I&apos;m eager to connect with like-minded individuals who share a passion for 
+            technology and its real-world applications. If you&apos;re looking for a driven 
+            Full Stack Developer who&apos;s genuinely enthusiastic about contributing to 
+            meaningful projects, I&apos;d love to chat. Ping me on{' '}  
             <Link
               noCustomization
               externalLink
@@ -146,8 +146,8 @@ const AboutMeSection = () => {
           <Typography>
             One last thing, I&apos;m available for freelance work, so feel free
             to reach out and say hello! 
-            I'm not saying I code in my sleep, but I've been known to wake up with 
-            solutions written in my dreams. Talk about 'REM' programming!
+            I&apos;m not saying I code in my sleep, but I&apos;ve been known to wake up with 
+            solutions written in my dreams. Talk about &apos;REM&apos; programming!
           </Typography>
         </div>
       </div>
