@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ['latin'] });
 const title = 'Harsh Sharma | Full Stack Developer ( MERN )';
 const description =
   'A self-proclaimed designer who specializes in full stack development (React.js & Node.js), from Ahmedabad, India.';
-const url = 'https://sagarshah.dev';
+const url = 'https://harsh-liart.vercel.app';
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     siteName: title,
     images: [
       {
-        url: '/images/open-graph-sagar.png',
+        url: '/images/harshlogo.png',
       },
     ],
   },
@@ -45,8 +45,8 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title,
     description,
-    creator: '@shahsagarm',
-    images: '/images/open-graph-sagar.png',
+    creator: '@0xharsh_sharma',
+    images: '/images/harshlogo.png',
   },
   icons: {
     icon: '/favicon2.ico',
