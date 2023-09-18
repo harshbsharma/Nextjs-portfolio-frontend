@@ -50,7 +50,7 @@ const HeroSection = () => {
               experiences that are fast, accessible, visually appealing, and
               responsive. Even though I have been creating web applications for
               over 7 years, I still love it as if it was something new. */}
-              Hey there, I'm Harsh Sharma, your go-to Full Stack Developer with a passion for 
+              Hey there, I&apos;m Harsh Sharma, your go-to Full Stack Developer with a passion for 
               crafting seamless digital experiences. With a keyboard as my paintbrush 
               and code as my canvas   💻🎨, I transform ideas into stunning, functional websites
               and applications.
@@ -58,7 +58,7 @@ const HeroSection = () => {
             </Typography>
             <Typography>
             My playground is the MERN (MongoDB, Express.js, React, Node.js) stack, where
-              I weave the magic of data-driven, user-centric solutions. Whether it's creating
+              I weave the magic of data-driven, user-centric solutions. Whether it&apos;s creating
               dynamic front-end interfaces or building robust back-end systems, I thrive on
               turning complex concepts into elegant code.
             </Typography>
