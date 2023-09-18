@@ -1,5 +1,5 @@
 'use client';
-
+import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { Menu, X } from 'lucide-react';
 
@@ -18,13 +18,19 @@ import ThemeSwitcher from '@/components/general/theme-switcher';
 import IconButton from '@/components/general/icon-button';
 import DownloadCV from '@/components/general/download-cv';
 import Typography from '@/components/general/typography';
+import harshlogo from '/public/images/harshlogo.png';
 
 const Logo = () => (
   // <Typography variant="h3" className="font-bold">
   //   {'<HS />'}
   // </Typography>
-  <img
-  src='/images/harshlogo.png'
+  // <img
+  // src='/images/harshlogo.png'
+  // className='w-[50px] h-[50px]'
+  // />
+  <Image
+  src={harshlogo}
+  alt='harshlogo'
   className='w-[50px] h-[50px]'
   />
 );
