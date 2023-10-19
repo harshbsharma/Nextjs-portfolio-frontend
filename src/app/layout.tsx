@@ -36,12 +36,11 @@ export const metadata: Metadata = {
     title,
     description,
     siteName: title,
-    // images: [
-    //   {
-    //     url: '/images/harshlogo.png',
-    //   },
-    // ],
-    images:"/src/assets/harshlogo.png"
+    images: [
+      {
+        url: '/images/harshlogo.png',
+      },
+    ],
   },
   twitter: {
     title,
