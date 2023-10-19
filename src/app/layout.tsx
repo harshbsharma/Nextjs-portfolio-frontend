@@ -6,6 +6,7 @@ import './globals.css';
 import Header from '@/components/layout/header';
 import { Providers } from '@/lib/providers';
 import Footer from '@/components/layout/footer';
+import harshlogo from '@/assets/harshlogo.png'
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -35,22 +36,22 @@ export const metadata: Metadata = {
     title,
     description,
     siteName: title,
-    images: [
-      {
-        url: '/images/harshlogo.png',
-      },
-    ],
+    // images: [
+    //   {
+    //     url: '/images/harshlogo.png',
+    //   },
+    // ],
+    images:"/src/assets/harshlogo.png"
   },
   twitter: {
-    card: 'summary_large_image',
     title,
     description,
     creator: '@0xharsh_sharma',
-    images: '/images/harshlogo.png',
+    images: '/src/assets/harshlogo.png',
   },
-  icons: {
-    icon: '/favicon2.ico',
-    shortcut: '/favicon2-16x16.png',
+  icons: {  
+    icon: '/favicon.ico',
+    shortcut: '/favicon-16x16.png',
     apple: '/apple-touch-icon.png',
   },
 };
