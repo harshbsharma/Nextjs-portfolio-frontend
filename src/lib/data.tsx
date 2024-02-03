@@ -6,6 +6,7 @@ import LogoFirebase from '/public/images/logos/icon-firebase.svg';
 import LogoRedux from '/public/images/logos/icon-redux.svg';
 import LogoGCP from '/public/images/logos/icon-gcp.svg';
 import LogoJavascript from '/public/images/logos/icon-javascript.svg';
+import Docker from '/public/images/logos/docker4.svg';
 import LogoTypescript from '/public/images/logos/icon-typescript.svg';
 import LogoReact from '/public/images/logos/icon-react.svg';
 import LogoNextjs from '/public/images/logos/icon-nextjs.svg';
@@ -31,12 +32,11 @@ import LogoGreenApexLight from '/public/images/logos/logo-greenapex-light.svg';
 import LogoDotnpixel from '/public/images/logos/logo-dotnpixel.svg';
 import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel-light.svg';
 
-import ProjectFiskil from '/public/images/project-fiskil.png';
-import ProjectWingie from '/public/images/project-wingie.png';
-import ProjectEcommerce from '/public/images/e-commerce.png';
+import CozyCart from '/public/images/CozyCart.png';
+import PromptBlog from '/public/images/promptblog.png';
+import SSB from '/public/images/logo.png';
 import ProjectSaas from '/public/images/saas.png';
 import ProjectCollabhub from '/public/images/homepage.png';
-import ProjectPepehousing from '/public/images/project-pepehousing.png';
 
 import AvatarKrisztian from '/public/images/avatar-krisztian.png';
 import AvatarEugen from '/public/images/avatar-eugen.png';
@@ -51,7 +51,7 @@ import {
 
 export const EXTERNAL_LINKS = {
   GITHUB: 'https://github.com/harshbsharma',
-  GITHUB_REPO: 'https://github.com/shahsagarm/sagarshah.dev',
+  GITHUB_REPO: 'https://github.com/harshbsharma/Nextjs-portfolio-frontend',
   TWITTER: 'https://twitter.com/0xharsh_sharma',
   INSTAGRAM:"https://instagram.com/sharma.harsh2612"
   
@@ -149,9 +149,9 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://www.mongodb.com/',
   },
   {
-    label: 'Sass/Scss',
-    logo: LogoSass,
-    url: 'https://sass-lang.com/',
+    label: 'Docker',
+    logo: Docker,
+    url: 'https://docker.com/',
   },
   {
     label: 'Tailwindcss',
@@ -246,27 +246,61 @@ export const EXPERIENCES: ExperienceDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
-    name: 'MegaMart',
+    name: 'Cozy Cart',
     description:
-      'MegaMart is a student-centric online marketplace where students can easily buy and sell second-hand products within their academic community. Our platform is designed to provide affordable solutions for students needs, promote sustainability by reducing waste, and foster a sense of community among students.',
-    url: 'https://www.wingie.com',
-    previewImage: ProjectEcommerce,
+      'Cozy Cart is an Inventory Manageent and Analysis platform which can be easily integrated with any E-commerce website or online store to provide hassle free day to day task of keeping the inventory check. It also includes authentication and Role Based Access Control ( RBAC ) for large scale businesses to manage task accordingly with roles and permissions.',
+    url: 'https://cozycart.vercel.app/',
+    previewImage: CozyCart,
     technologies: [
-      'React',
-      'Javascript',
-      'React Bootstrap',
-      'Firebase',
-      'Express.js',
-      'Passport.js',
-      'Styled Components',
+      'Next.js',
+      'Typescript',
       'Redux',
+      'ShadcnUI',
+      'Redis',
+      'PostgreSQL',
+      'Clerk.js',
+      'Prisma',
+      'Docker',
+    ],
+  },
+  {
+    name: 'Prompt Blog',
+    description:
+      'Prompt Blog allows you to create, edit, manage and share amazing Genertive AI prompts to give you ease with the daunting task of keeping them in your memory',
+    url: 'https://promptshare-chi.vercel.app/',
+    previewImage: PromptBlog,
+    technologies: [
+      'Next.js',
+      'Javascript',
+      'Tailwindcss',
+      'Redux Toolkit',
+      'Express.js',
+      'MongoDB',
+      'Next-Auth',
+    ],
+  },
+  {
+    name: 'SSB - Safar Surakshit Bharat',
+    description:
+      `SSB is a project made by my team during Smart India Hackathon. It consists of Hardware and Software unit. The Hardware module installed in the driver's vicinity
+      continously monitors the alcohol level and when the it reaches the threshold limit. The Software module send driver's vital information including location where the alert
+      is trigger to his/her emergency contacts and can be further prosecutted by law enforcement agencies for e-challan`,
+    url: 'https://github.com/harshbsharma/SSB-backend',
+    previewImage: SSB,
+    technologies: [
+      'Arduino',
+      'Express.js',
+      'Javascript',
+      'MongoDB',
+      'AWS SNS',
+      'AWS SDK'
     ],
   },
   {
     name: 'CollabHub',
     description:
       'CollabHub enables YouTube creators to seamlessly manage their channels by granting access to a team of editors. Creators can authorize their YouTube channels via OAuth 2.0, allowing editors to upload videos on their behalf.',
-    url: 'https://fiskil.com.au',
+    url: 'https://github.com/harshbsharma',
     previewImage: ProjectCollabhub,
     technologies: [
       'React',
@@ -284,7 +318,7 @@ export const PROJECTS: ProjectDetails[] = [
     name: 'FinHouse',
     description:
       'A Saas Website to manage all the user finance , from monthly budgets to special events Finhouse got it all covered. Give you smooth and efficient spend tracking to improve savings.',
-    url: 'https://pepehousing.com',
+    url: 'https://github.com/harshbsharma',
     previewImage: ProjectSaas,
     technologies: [
       'React',

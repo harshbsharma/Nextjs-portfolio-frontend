@@ -58,14 +58,14 @@ const ProjectDetails = ({
             <Tag key={index} label={technology} />
           ))}
         </div>
-        {/* <Link
+        <Link
           href={url}
           noCustomization
           className="self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500"
           externalLink
         >
           <ExternalLink />
-        </Link> */}
+        </Link>
       </div>
     </Card>
   );
